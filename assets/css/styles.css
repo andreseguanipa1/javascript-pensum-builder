@@ -1,0 +1,52 @@
+body{
+    min-width: 1250px;
+}
+
+.form, p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.materia {
+    border: 1px solid #000;
+    border-radius: 4%;
+    padding: 50px 5px 50px 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    font-size: 85%;
+    margin-bottom: 10px;
+}
+
+.borrar {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.borrar:hover {
+    cursor: pointer;
+    background-color: rgb(201, 0, 0);
+}
+
+.semesters{
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+
+.row{
+    margin: 15px;
+}
